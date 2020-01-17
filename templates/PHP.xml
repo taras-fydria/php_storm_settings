@@ -1,0 +1,61 @@
+<templateSet group="PHP">
+  <template name="php" value="&lt;?php $END$ ?&gt;" description="php tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="dump" value="echo '&lt;pre&gt;';&#10;var_dump($END$);&#10;echo '&lt;/pre&gt;';" description="echo var_dump" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fore" value="&lt;?php foreach ($ITERABLE$ as $VAR_VALUE$): ?&gt;&#10;    $END$&#10;&lt;?php endforeach; ?&gt;" description="foreach(iterable_expr as $value) {...}" toReformat="true" toShortenFQNames="true">
+    <variable name="ITERABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_VALUE" expression="phpSuggestVariableName()" defaultValue="&quot;$item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="gf" value="get_field('$END$');" description="get_field();" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pif" value="&lt;?php if($_END_$): ?&gt;&#10;&#10;&lt;?php endif; ?&gt;" description="&lt;?php if" toReformat="false" toShortenFQNames="true">
+    <variable name="_END_" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="hv" value="if(have_posts()){&#10;    while(have_posts()){&#10;        the_post();&#10;        $END$&#10;    }&#10;}" description="have post" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if($END$){&#10;    &#10;}" description="if statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="w" value="_w('$END$');" description="_w('');" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="a" value="array(&#10;    '$END$'&#10;);" description="array args" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="args" value="$args = array(&#10;    'post_type' =&gt; '$END$',&#10;    'posts_per_page' =&gt; -1&#10;);" description="wp query args" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="e" value="&lt;?php echo $END$; ?&gt;" description="echo in html" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

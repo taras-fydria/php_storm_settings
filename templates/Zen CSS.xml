@@ -1,0 +1,87 @@
+<templateSet group="Zen CSS">
+  <template name="fs" value="font-size:$VAR0$;" description="font-size:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="18px" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bg" value="background:#$VAR0$;" description="background:...;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;000&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bd+" value="border:$VAR0$ $VAR1$ $VAR2$;" description="border:1px solid #000;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;1px&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;solid&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bd:n" value="border:none;" description="border:none;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="bdbk" value="border-break:$VAR0$;" description="border-break:...;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;close&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bdbk:c" value="border-break:close;" description="border-break:close;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="bdbi" value="border-bottom-image:url($VAR0$);" description="border-bottom-image:url(...);" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bdbi:n" value="border-bottom-image:none;" description="border-bottom-image:none;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="bdbri" value="border-bottom-right-image:url($VAR0$);" description="border-bottom-right-image:url(...);" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bdbri:n" value="border-bottom-right-image:none;" description="border-bottom-right-image:none;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="bdbri:c" value="border-bottom-right-image:continue;" description="border-bottom-right-image:continue;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="bdbli" value="border-bottom-left-image:url($VAR0$);" description="border-bottom-left-image:url(...);" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bdbli:n" value="border-bottom-left-image:none;" description="border-bottom-left-image:none;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="bdbli:c" value="border-bottom-left-image:continue;" description="border-bottom-left-image:continue;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="bdb" value="border-bottom: $END$;" description="border-bottom:...;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="bb" value="border-bottom: $END$;" description="border-bottom:...;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="bdb+" value="border-bottom:$VAR0$ $VAR1$ $VAR2$;" description="border-bottom:1px solid #000;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;1px&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;solid&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;#000&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bdb:n" value="border-bottom:none;" description="border-bottom:none;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="bdbs" value="border-bottom-style: $END$;" description="border-bottom-style:...;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="bdbs:n" value="border-bottom-style:none;" description="border-bottom-style:none;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="bdbc" value="border-bottom-color:#$VAR0$;" description="border-bottom-color:...;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;000&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bdbc:t" value="border-bottom-color:transparent;" description="border-bottom-color:transparent;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="bdbrrs" value="border-bottom-right-radius: $END$;" description="border-bottom-right-radius:...;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="bdblrs" value="border-bottom-left-radius: $END$;" description="border-bottom-left-radius:...;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+</templateSet>

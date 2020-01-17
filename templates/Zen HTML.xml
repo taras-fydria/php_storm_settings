@@ -1,0 +1,5 @@
+<templateSet group="Zen HTML">
+  <template name="sect" value="&lt;section&gt;$END$&lt;/section&gt;" description="&lt;section&gt;...&lt;/section&gt;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

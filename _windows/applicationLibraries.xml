@@ -1,0 +1,16 @@
+<application>
+  <component name="libraryTable">
+    <library name="jquery" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="jQuery" />
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/Desktop/Tools/jquery-3.4.1.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/Desktop/Tools/jquery-3.4.1.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>

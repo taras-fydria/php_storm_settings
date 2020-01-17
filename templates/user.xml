@@ -1,0 +1,339 @@
+<templateSet group="user">
+  <template name="content" value="echo apply_filter('the_content', $_END_$);" description="echo apply_filter" toReformat="false" toShortenFQNames="true">
+    <variable name="_END_" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="contenth" value="&lt;?php echo apply_filter('the_content', $_END_$); ?&gt;" description="echo apply_filter('the_content', $_END_$);" toReformat="false" toShortenFQNames="true">
+    <variable name="_END_" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="gf" value="get_field('$END$');" description="get_field('')" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="af" value="echo apply_filters('the_content', $END$);" description="echo apply_filter" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bg" value="@include breakpoint($VAR0$){&#10;    &#10;}" description="@include breakpoint" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="1024px" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bgset" value="@include breakpoint(640px){&#10;&#9;&#10;}&#10;@include breakpoint(1024px){&#10;&#9;&#10;}" description="bg set packege" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="st" value="show_template('$END$');" description="show_template('');" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="combo" value="@include breakpoint(640px){&#10;    $END$&#10;}&#10;@include breakpoint(1024px){&#10;    &#10;}" description="Combo media query" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="grav" value="$form_object = get_field('$END$');&#10;echo do_shortcode('[gravityform id=&quot;' . $form_object['id'] . '&quot; ajax=&quot;true&quot;]');" description="ACF gravity" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="submit" value="add_filter( 'gform_submit_button', 'form_submit_button', 10, 2 );&#10;function form_submit_button( $button, $form ) {&#10;    return &quot;&lt;button class='button' id='gform_submit_button_{$form['id']}'&gt;&lt;span&gt;Submit&lt;/span&gt;&lt;/button&gt;&quot;;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="time" value="console.time('$END$');" description="console.time('')" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="end" value="console.timeEnd('$END$');" description="console.timeEnd('')" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="m2" value="medium-2" description="medium-2" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="m3" value="medium-3" description="medium-3" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="m4" value="medium-4" description="medium-4" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="m5" value="medium-5" description="medium-5" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="m6" value="medium-6" description="medium-6" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="m7" value="medium-7" description="medium-7" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="m8" value="medium-8" description="medium-8" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="m9" value="medium-9" description="medium-9" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="m10" value="medium-10" description="medium-10" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="m11" value="medium-11" description="medium-11" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="m12" value="medium-12" description="medium-12" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="s1" value="small-1" description="small-1" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="s2" value="small-2" description="small-2" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="s3" value="small-3" description="small-3" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="s4" value="small-4" description="small-4" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="s5" value="small-5" description="small-5" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="s6" value="small-6" description="small-6" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="s7" value="small-7" description="small-7" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="s8" value="small-8" description="small-8" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="s9" value="small-9" description="small-9" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="s10" value="small-10" description="small-10" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="s11" value="small-11" description="small-11" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="s12" value="small-12" description="small-12" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="c" value="column" description="column" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="sfl" value="show-for-large" description="show-for-large" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="hfs" value="hide-for-small" description="hide-for-small" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="r" value="row" description="row" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ap" value="echo apply_filters('the_content', $END$);" description="aplly_filters" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vd" value="if(class_exists('VarDump')){&#10;    VarDump::dump($END$);&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ity" value="@include translate(0, -50%);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="itx" value="@include translate(-50%, 0);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="itb" value="@include translate(-50%, -50%);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="mail" value="wp_mail('dimonpdaa@gmail.com', 'Mail Dump', var_export($END$, true));" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bmm" value="&#10;@include breakpoint(medium) {&#10;    $END$    &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bss" value="&#10;@include breakpoint(small) {&#10;    $END$    &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bif" value="@if ($END$)&#10;&#10;@endif" description="if for blade" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="bll" value="&#10;@include breakpoint(large) {&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="mod" value="var $NAME$ = (function(){&#10;    return {&#10;        init: function(app){&#10;            &#10;        },&#10;        events: function(app){&#10;            &#10;        }&#10;    }&#10;})();&#10;module.exports = $NAME$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="gg" value="&lt;div class=&quot;grid-container&quot;&gt;&#10;&#9;&#9;&lt;div class=&quot;grid-x&quot;&gt;&#10;&#9;&#9;&#9;$END$&#10;&#9;&#9;&lt;/div&gt;&#10;&#9;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ifelse" value="&lt;?php if($1$): ?&gt;&#10;$2$&#10;&lt;?php else: ?&gt;&#10;&#10;&lt;?php endif;?&gt;" description="if else enif" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="if" value="&lt;?php if($1$): ?&gt;&#10;$2$&#10;&lt;?php endif;?&gt;" description="php if" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="repeater" value="&lt;?php if ( $1$): ?&gt;&#10;&lt;ul&gt;&#10;&#9;&lt;?php foreach ( $2$as $3$): ?&gt;&#10;        &lt;li&gt;&#10;            $4$&#10;        &lt;/li&gt;&#10;&#9;&lt;?php endforeach; ?&gt;&#10;&lt;/ul&gt;&#10;&lt;?php endif;  ?&gt;&#10;" description="wp repeater" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="pe" value="&lt;?php echo $1$ ;?&gt;" description="php + echo" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="bp" value="@media only screen and ($_min_$-width: $_1024_$px) {&#10;$END$&#10;}" description="media screen" toReformat="false" toShortenFQNames="true">
+    <variable name="_min_" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="_1024_" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PHP" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Twig" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="if?" value="echo $1$($2$) ? $3$ : $4$;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="use-svg" value="&lt;svg class=&quot;&quot; width=&quot;&quot; height=&quot;&quot;&gt;&#10;    &lt;use xlink:href=&quot;#&quot;&gt;&#10;&lt;/svg&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="sybmol-svg&gt;" value="&lt;symbol id=&quot;&quot; viewBox=&quot;0 0 32 32&quot; fill=&quot;none&quot;&gt;&#10;    &lt;g&gt;&#10;   &#10;    &lt;/g&gt;&#10;&lt;/symbol&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="switch" value="&lt;?php switch ($1$) {&#10;&#9;case $2$:&#10;&#9;&#9;?&gt;&#10;$3$&#10;&#9;&#9;&lt;?php break;&#10;&#9;case :&#10;&#9;&#9;?&gt;&#10;&#10;&#9;&#9;&lt;?php break;&#10;&#9;case :&#10;&#9;&#9;?&gt;&#10;&#10;&#9;&#9;&lt;?php break;&#10;}; ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,29 @@
+<templateSet group="SCSS">
+  <template name="bm" value="&#10;@include breakpoint($medium) {&#10;    $END$&#10;}" description="breakpoint 1025" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bl" value="&#10;@include breakpoint($large) {&#10;    $END$&#10;}" description="breakpoint 1280" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bs" value="&#10;@include breakpoint($small) {&#10;    $END$&#10;}" description="breakpoint 641" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="bx" value="&#10;@include breakpoint($x-large) {&#10;    $END$&#10;}" description="breakpoint 1440" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="comb" value="@include combine(&#10;&#9;$default: ($VAR1$),&#10;&#9;$tablet: ($VAR2$),&#10;&#9;$mobile: ($END$)&#10;);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>
