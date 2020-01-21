@@ -1,6 +1,12 @@
 <application>
   <component name="EmmetOptions">
+    <option name="bemModifierSeparator" value="--" />
     <option name="emmetExpandShortcut" value="10" />
+    <option name="filtersEnabledByDefault">
+      <set>
+        <option value="bem" />
+      </set>
+    </option>
     <option name="previewEnabled" value="true" />
   </component>
 </application>
