@@ -15,6 +15,7 @@
       <mapping ext="map" type="PLAIN_TEXT" />
       <mapping ext="svgz" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
+      <mapping ext="woff" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
