@@ -328,7 +328,7 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="switch" value="&lt;?php switch ($1$) {&#10;&#9;case $2$:&#10;&#9;&#9;?&gt;&#10;$3$&#10;&#9;&#9;&lt;?php break;&#10;&#9;case :&#10;&#9;&#9;?&gt;&#10;&#10;&#9;&#9;&lt;?php break;&#10;&#9;case :&#10;&#9;&#9;?&gt;&#10;&#10;&#9;&#9;&lt;?php break;&#10;}; ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="switch" value="&lt;?php switch ($1$) :&#10;&#9;case $2$:&#10;&#9;&#9;?&gt;&#10;$3$&#10;&#9;&#9;&lt;?php break;&#10;&#9;case :&#10;&#9;&#9;?&gt;&#10;&#10;&#9;&#9;&lt;?php break;&#10;&#9;case :&#10;&#9;&#9;?&gt;&#10;&#10;&#9;&#9;&lt;?php break;&#10;endswitch; ?&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
