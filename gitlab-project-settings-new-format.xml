@@ -1,0 +1,13 @@
+<application>
+  <component name="SettingsState">
+    <option name="gitlabServers">
+      <list>
+        <GitlabServer>
+          <option name="apiToken" value="zG2tHhyMPAwzVxpVf-i_" />
+          <option name="apiUrl" value="https://gitlab.sprylab.com/" />
+          <option name="repositoryUrl" value="gitlab.sprylab.com" />
+        </GitlabServer>
+      </list>
+    </option>
+  </component>
+</application>
