@@ -1,8 +1,11 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping ext="csv" type="CSV" />
+      <removed_mapping ext="tsv" type="CSV/TSV" />
+      <removed_mapping ext="csv" type="CSV/TSV" />
       <mapping ext="graphql" type="GraphQL" />
-      <removed_mapping ext="graphql" approved="true" type="GraphQL" />
+      <mapping ext="tsv" type="TSV" />
     </extensionMap>
   </component>
 </application>
