@@ -1,25 +1,7 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
-      <removed_mapping ext="graphql" approved="true" type="GraphQL" />
-      <mapping pattern="program-list.js" type="JavaScript" />
-      <mapping pattern="solutions-listing" type="PHP" />
-      <mapping pattern="team-post" type="PHP" />
-      <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
-      <mapping pattern="test-do.css" type="PLAIN_TEXT" />
-      <mapping pattern=".index.php.swp" type="PLAIN_TEXT" />
-      <mapping pattern=".DS_Store" type="PLAIN_TEXT" />
-      <mapping pattern="slider_section.php" type="PLAIN_TEXT" />
-      <mapping pattern="layout-program.pug" type="PLAIN_TEXT" />
-      <mapping pattern="hosts" type="PLAIN_TEXT" />
-      <mapping ext="cnf" type="PLAIN_TEXT" />
-      <mapping ext="orig" type="PLAIN_TEXT" />
-      <mapping ext="config" type="PLAIN_TEXT" />
-      <mapping ext="graphql" type="PLAIN_TEXT" />
-      <mapping ext="mo" type="PLAIN_TEXT" />
-      <mapping ext="map" type="PLAIN_TEXT" />
-      <mapping ext="woff" type="PLAIN_TEXT" />
-      <mapping ext="svgz" type="PLAIN_TEXT" />
+      <mapping ext="graphql" type="GraphQL" />
       <removed_mapping ext="graphql" approved="true" type="GraphQL" />
     </extensionMap>
   </component>
