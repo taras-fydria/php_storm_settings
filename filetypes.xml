@@ -2,11 +2,9 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="global.js" type="AUTO_DETECTED" />
-      <removed_mapping ext="csv" type="CSV" />
-      <mapping ext="csv" type="CSV file" />
-      <removed_mapping ext="tsv" type="CSV/TSV" />
+      <mapping ext="tsv" type="CSV/TSV" />
       <mapping pattern="global" type="JavaScript" />
-      <mapping ext="tsv" type="TSV" />
+      <removed_mapping ext="tsv" type="TSV" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
     </extensionMap>
   </component>
