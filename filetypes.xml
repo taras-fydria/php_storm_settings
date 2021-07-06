@@ -4,7 +4,6 @@
       <mapping pattern="global.js" type="AUTO_DETECTED" />
       <mapping ext="tsv" type="CSV/TSV" />
       <mapping pattern="global" type="JavaScript" />
-      <removed_mapping ext="tsv" type="TSV" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
     </extensionMap>
   </component>
