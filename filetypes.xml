@@ -1,8 +1,8 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="global.js" type="AUTO_DETECTED" />
       <mapping pattern="_m-list-articles" type="AUTO_DETECTED" />
+      <mapping pattern="global.js" type="AUTO_DETECTED" />
       <mapping pattern="global" type="JavaScript" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
