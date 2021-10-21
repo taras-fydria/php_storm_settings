@@ -4,7 +4,7 @@
     <property name="created">2021-08-27T10:36:51</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2021.2.0.0</property>
-    <property name="modified">2021-08-27T11:29:42</property>
+    <property name="modified">2021-10-21T11:53:20</property>
     <property name="originalScheme">Atom One Light (Material)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -1196,22 +1196,22 @@
     </option>
     <option name="INDENT_RAINBOW_COLOR_1">
       <value>
-        <option name="BACKGROUND" value="fafaed" />
+        <option name="BACKGROUND" value="fbfbe4" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_2">
       <value>
-        <option name="BACKGROUND" value="f1faf1" />
+        <option name="BACKGROUND" value="ebfbeb" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_3">
       <value>
-        <option name="BACKGROUND" value="faf1fa" />
+        <option name="BACKGROUND" value="fbebfb" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_COLOR_4">
       <value>
-        <option name="BACKGROUND" value="eef9f9" />
+        <option name="BACKGROUND" value="e5f8f8" />
       </value>
     </option>
     <option name="INDENT_RAINBOW_ERROR">
