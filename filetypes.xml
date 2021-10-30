@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="_m-list-articles" type="AUTO_DETECTED" />
       <mapping pattern="global.js" type="AUTO_DETECTED" />
+      <mapping ext="graphqlconfig" type="JSON" />
       <mapping pattern="global" type="JavaScript" />
       <removed_mapping ext="csv" approved="true" type="CSV file" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
