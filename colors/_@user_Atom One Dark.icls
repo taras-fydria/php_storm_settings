@@ -4,7 +4,7 @@
     <property name="created">2021-03-15T10:48:45</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2020.1.4.0.0</property>
-    <property name="modified">2021-10-30T15:34:26</property>
+    <property name="modified">2021-11-02T22:34:49</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Consolas" />
@@ -449,7 +449,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="CONSOLE_WHITE_OUTPUT" baseAttributes="" />
+    <option name="CONSOLE_WHITE_OUTPUT" baseAttributes="CONSOLE_NORMAL_OUTPUT" />
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
         <option name="FOREGROUND" value="efaa8e" />
